@@ -169,7 +169,7 @@ start-yarn.sh
 # Zookeeper安装：
 
 #### 1. 在master上传解压zookeeper安装包：    
-	tar -axvf zookeeper-3.4.9.tar.gz
+	tar -zxvf zookeeper-3.4.9.tar.gz
 #### 2. 在master上修改配置文件：
 	1. cd zookeeper-3.4.9/conf
 	2. mv zoo_sample.cfg zoo.cfg
